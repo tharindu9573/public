@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Invoice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:www.cenbii.eu:profile:bii04:ver1.0</cbc:ProfileID>
+  <cbc:ID>SI104688</cbc:ID>
+  <cbc:IssueDate>2022-06-21</cbc:IssueDate>
+  <cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode listID="ISO4217">NOK</cbc:DocumentCurrencyCode>
+  <cbc:TaxCurrencyCode listID="ISO4217">NOK</cbc:TaxCurrencyCode>
+  <cac:OrderReference>
+    <cbc:ID>4502295411</cbc:ID>
+  </cac:OrderReference>
+  <cac:ContractDocumentReference>
+    <cbc:ID>SI104688</cbc:ID>
+    <cbc:DocumentTypeCode listID="UNCL1001" />
+    <cbc:DocumentType />
+  </cac:ContractDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="NO:VAT">970949763</cbc:EndpointID>
+      <cac:PartyName>
+        <cbc:Name>Maritime Partner AS</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>Breivika Industriveg 65</cbc:StreetName>
+        <cbc:AdditionalStreetName>P.O.Box 8193</cbc:AdditionalStreetName>
+        <cbc:CityName>ÅLESUND</cbc:CityName>
+        <cbc:PostalZone>6022</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID schemeID="NO:VAT">NO 970949763</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Maritime Partner AS</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="NO:VAT">970949763</cbc:CompanyID>
+        <cac:RegistrationAddress>
+          <cbc:CityName>ÅLESUND</cbc:CityName>
+          <cac:Country>
+            <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ID>Selger</cbc:ID>
+        <cbc:Name>Ole Olsen</cbc:Name>
+        <cbc:Telephone />
+        <cbc:Telefax />
+        <cbc:ElectronicMail>ole@compello.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="NO:VAT">986105174</cbc:EndpointID>
+      <cac:PartyName>
+        <cbc:Name>FORSVARETS REGNSKAPSADM.  K-11</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>POSTBOKS 1, HAAKONSVERN </cbc:StreetName>
+        <cbc:AdditionalStreetName />
+        <cbc:CityName>BERGEN </cbc:CityName>
+        <cbc:PostalZone>5886</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID schemeID="NO:VAT">986105174</cbc:CompanyID>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>FORSVARETS REGNSKAPSADM.  K-11</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="NO:VAT">986105174</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ID>KARI NORDMANN</cbc:ID>
+        <cbc:Name>FORSVARETS REGNSKAPSADM.  K-11</cbc:Name>
+        <cbc:Telephone> 55 54 60 32/57</cbc:Telephone>
+        <cbc:Telefax />
+        <cbc:ElectronicMail>fra.kontakt@mil.no purring: FFT.FRA@MIL.NO</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PayeeParty>
+    <cac:PartyName>
+      <cbc:Name>Maritime Partner AS</cbc:Name>
+    </cac:PartyName>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="NO:VAT">970949763</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:PayeeParty>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2022-07-21</cbc:PaymentDueDate>
+    <cbc:PaymentChannelCode />
+    <cbc:PaymentID />
+    <cac:PayeeFinancialAccount>
+      <cbc:ID schemeID="IBAN">NO3039000519646</cbc:ID>
+      <cac:FinancialInstitutionBranch>
+        <cbc:ID>3900</cbc:ID>
+        <cac:FinancialInstitution>
+          <cbc:ID schemeID="BIC">SPARNO22</cbc:ID>
+          <cbc:Name>Sparebanken Møre</cbc:Name>
+        </cac:FinancialInstitution>
+      </cac:FinancialInstitutionBranch>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>Net per 30 days</cbc:Note>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="NOK">3876.25</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="NOK">15505</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="NOK">3876.25</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cbc:TaxExemptionReason />
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="NOK">15505</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="NOK">15505</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="NOK">19381.25</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="NOK">0</cbc:AllowanceTotalAmount>
+    <cbc:PrepaidAmount currencyID="NOK">0.00</cbc:PrepaidAmount>
+    <cbc:PayableRoundingAmount currencyID="NOK">0</cbc:PayableRoundingAmount>
+    <cbc:PayableAmount currencyID="NOK">19381.25</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>10000</cbc:ID>
+    <cbc:Note>Vare</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">7955.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCost />
+    <cac:OrderLineReference>
+      <cbc:LineID />
+    </cac:OrderLineReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">1988.75</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>MERKE 3</cbc:Description>
+      <cbc:Name>SERVICE KIT SJØBJØRN 25 MKIII</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>150231</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">7955.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>20000</cbc:ID>
+    <cbc:Note>Vare</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">4950.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCost />
+    <cac:OrderLineReference>
+      <cbc:LineID />
+    </cac:OrderLineReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">1237.5</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Name>STEERING PUMP</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>400716</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">4950.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>30000</cbc:ID>
+    <cbc:Note>Ressurs</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">2000.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCost />
+    <cac:OrderLineReference>
+      <cbc:LineID />
+    </cac:OrderLineReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">500</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Name>EMISSION OF CERTIFICATE ANNUAL</cbc:Name>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">2000.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>40000</cbc:ID>
+    <cbc:Note>Vare</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">200.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCost />
+    <cac:OrderLineReference>
+      <cbc:LineID />
+    </cac:OrderLineReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">50</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Name>PACKING AND HANDLING</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>504185</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">200.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>50000</cbc:ID>
+    <cbc:Note>Vare</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">400.00</cbc:LineExtensionAmount>
+    <cbc:AccountingCost />
+    <cac:OrderLineReference>
+      <cbc:LineID />
+    </cac:OrderLineReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">100</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>FRAKT UT</cbc:Description>
+      <cbc:Name>FREIGHT OUT</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>8002</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">400.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>
